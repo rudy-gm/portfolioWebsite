@@ -1,38 +1,32 @@
 import React from "react";
 import "./portfolio.css";
 import { FaGithub, FaWifi } from "react-icons/fa";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+
+//Images 
+
+import IncomeTax from '../../assets/Tax-Calculator-Image.png';
+import CrackTheCode from '../../assets/Crack-The-Code-Image.png';
+import ToDoApp from '../../assets/To-Do-App-Image.png';
 
 const projects = [
-  {
-    id: 0,
-    image: IMG1,
-    title: "Project Name",
-    github: "github.com",
-    demo: "demo.com",
-  },
+  
   {
     id: 1,
-    image: IMG2,
+    image: IncomeTax,
     title: "Income Tax Calculator with JavaScript and BootStrap",
     github: "https://github.com/rudy-gm/taxCal",
     demo: "https://rudy.netlify.app/",
   },
   {
     id: 2,
-    image: IMG3,
+    image: CrackTheCode,
     title: "Crack The Code Game with React and RESTful APIs",
-    github: "https://github.com/rudy-gm/crackTheCodeApp",
+    github: "https://github.com/rudy-gm/crack-the-code",
     demo: "https://rudy-crack-the-code.netlify.app/",
   },
   {
     id: 3,
-    image: IMG4,
+    image: ToDoApp,
     title: "To-Do List App with React Hooks and custom CSS",
     github: "https://github.com/rudy-gm/todoListApp",
     demo: "https://rudytodo.netlify.app/",
@@ -56,7 +50,7 @@ const Portfolio = () => {
               <h3>{project.title}</h3>
 
               <div className="portfolio__item-cta">
-                <a href={project.github} className="btn">
+                <a href={project.github} className="btn" target='_blank'>
                   <FaGithub></FaGithub> Code
                 </a>
                 <a
