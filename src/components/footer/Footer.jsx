@@ -23,6 +23,8 @@ const Footer = () => {
 
     <div className="footer__copyright">
       <small>&copy; Rudy Gutierrez. All rights reserved.</small>
+      <br></br>
+      <small><a href="https://storyset.com/web">Web illustrations by Storyset</a></small>
     </div>
   </footer>
   )

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about-developer.png";
 import Certificate from '../../assets/Full-Stack-Certificate-Rodolfo-Gutierrez.pdf'
 
 // ==== Icons ==== // 

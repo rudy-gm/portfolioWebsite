@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import "./contact.css";
 import { MdOutlineMailOutline } from "react-icons/md";
+import {BsLinkedin} from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -34,17 +35,11 @@ const Contact = () => {
             <a href="mailto:rodolfo-gm@hotmail.com" target='_blank'>Send a Message</a>
           </article>
           <article className="contact__option">
-            <MdOutlineMailOutline className="contact__option-icon"></MdOutlineMailOutline>
-            <h4>Connect with Me</h4>
-            <h5>rodolfo-gm@hotmail.com</h5>
-            <a href="mailto:rodolfo-gm@hotmail.com">Send a Message</a>
+            <BsLinkedin className="contact__option-icon"></BsLinkedin>
+            <h4>Connect with Me!</h4>
+            <a href="https://www.linkedin.com/in/rodolfo-gutierrez-3b9113167/" target="_blank">See Profile</a>
           </article>
-          <article className="contact__option">
-            <MdOutlineMailOutline className="contact__option-icon"></MdOutlineMailOutline>
-            <h4>Connect with Me</h4>
-            <h5>rodolfo-gm@hotmail.com</h5>
-            <a href="mailto:rodolfo-gm@hotmail.com">Send a Message</a>
-          </article>
+    
         </div>
 
         {/* ======= END OF CONTACT OPTIONS */}
